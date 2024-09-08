@@ -71,4 +71,8 @@ public class SearchService {
         // Return results
         return itemList;
     }
+    public List<Item> search(String query) {
+    return Collections.emptyList(); // Break the test by returning empty list
+}
+
 }
